@@ -1,29 +1,22 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
 
      render() {
           return <>
-               <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <Link className="navbar-brand" to="/">React Apps</Link>
+               <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-sm">
+                    <a className="navbar-brand text-primary fw-bold fs-4" href="/">IPortfolio</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                          <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                         <ul className="navbar-nav mr-auto">
-
-                              <li class="nav-item dropdown">
-                                   <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Projects</a>
-                                   <div className="dropdown-menu">
-                                        <Link className="dropdown-item" to="/digitalclock"> Digital Clock</Link>
-                                        <Link className="dropdown-item" to="product">Product App</Link>
-                                        <Link className="dropdown-item" to="/user">User App</Link>
-                                        <Link className="dropdown-item" to="/textanalyzer">Text Analyzer</Link>
-                                   </div>
-                              </li>
-
+                         <ul className="navbar-nav ml-auto">
+                              <li className="nav-item"> <a className="nav-link active"  href="#home">Home</a> </li>   
+                              <li className="nav-item"> <a className="nav-link " href="#about">About</a> </li>   
+                              <li className="nav-item"> <a className="nav-link " href="#service">Services</a> </li>   
+                              <li className="nav-item"> <a className="nav-link " href="#portfolio">Portfolio</a> </li>   
+                              <li className="nav-item"> <a className="nav-link " href="#contact">Contact</a> </li>                              
                          </ul>
                     </div>
                </nav>
