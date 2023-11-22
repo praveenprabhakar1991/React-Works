@@ -6,6 +6,7 @@ import Newsapp from './Assets/Newsapp.png'
 import contact from './Assets/contact.png'
 import Product from './Assets/Product.png'
 import Textanalyzer from './Assets/Textanalyzer.png'
+import Resume from './Assets/Resume.png'
 
 class Home extends Component {
 
@@ -21,7 +22,7 @@ class Home extends Component {
                         <h1 className='text-uppercase'>Prabhakar B</h1>
                         <h2 className='text-primary text-uppercase'>Full Stack Developer</h2>
                         <p className='text-muted mt-3 text-capitalize'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam neque molestias sunt odit.</p>
-                        <a className="btn btn-outline-primary mt-3 px-3" href="#Portfolio">My Works</a>
+                        <a className="btn btn-outline-primary mt-3 px-3" href="#portfolio">My Works</a>
                      </div>
                   </div>
                   <div className="col-md-6 mt-5 mt-md-0">
@@ -46,53 +47,55 @@ class Home extends Component {
                </div>
 
                <div className="row ">
-                  <div className="col-md-6">
+                  <div className="col-md-6 mt-5">
                      <div className='about-text'>
                         <h3 className='text-uppercase mb-3'>fugiat magni deleniti iure omnis dicta facere temporibus</h3>
                         <p className='text-capitalize text-muted'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque accusamus deserunt debitis vero maxime, harum, cupiditate explicabo perferendis aliquam sapiente, repellat reiciendis dolor! Iste omnis ipsum architecto blanditiis, quia reiciendis ratione corrupti laboriosam minus quis maiores corporis, sint cumque pariatur. Repellendus fuga pariatur cum fugiat earum magni consequatur necessitatibus voluptates dolor! Accusantium beatae perspiciatis, molestias quae animi perferendis ab, nostrum et asperiores architecto, vero iure! Animi quos perferendis adipisci ab nostrum ipsum atque.</p>
 
+                        <button className='btn btn-outline-primary btn-sm'><a href={Resume} download>My Resume</a></button>
+
                         <div className='social-inks mt-5'>
-                           <i className='mx-5 fa fa-facebook fa-2xl'></i> 
-                           <i className='mx-5 fa fa-instagram fa-2xl'></i> 
-                           <i className='mx-5 fa fa-whatsapp fa-2xl'></i> 
-                           <i className='mx-5 fa fa-github fa-2xl mt-5'></i>
+                           <i className='mx-5 fa fa-facebook fa-2xl'></i>
+                           <i className='mx-5 fa fa-instagram fa-2xl'></i>
+                           <i className='mx-5 fa fa-github fa-2xl'></i>
+                           <i className='mx-5 fa fa-whatsapp fa-2xl mt-5'></i>
                         </div>
                      </div>
                   </div>
 
-                  <div className="col-md-6 mt-5 mt-md-0">
+                  <div className="col-md-6 mt-5 ">
                      <div className='skill-item'>
                         <h6 className='mt-2'> Adobe Photoshop</h6>
-                        <div class="progress shadow-sm" style={{ height: "8px" }}>
-                           <div class="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress shadow-sm" style={{ height: "8px" }}>
+                           <div className="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6 className='mt-2'>Adobe Premier Pro</h6>
-                        <div class="progress shadow-sm" style={{ height: "8px" }}>
-                           <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress shadow-sm" style={{ height: "8px" }}>
+                           <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6 className='mt-2'>Adobe After effects</h6>
-                        <div class="progress shadow-sm" style={{ height: "8px" }}>
-                           <div class="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress shadow-sm" style={{ height: "8px" }}>
+                           <div className="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6 className='mt-2'>Html</h6>
-                        <div class="progress shadow-sm" style={{ height: "8px" }}>
-                           <div class="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress shadow-sm" style={{ height: "8px" }}>
+                           <div className="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6 className='mt-2'>Bootstrap</h6>
-                        <div class="progress shadow-sm" style={{ height: "8px" }}>
-                           <div class="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress shadow-sm" style={{ height: "8px" }}>
+                           <div className="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6 className='mt-2'>JavaScript</h6>
-                        <div class="progress shadow-sm" style={{ height: "8px" }}>
-                           <div class="progress-bar" role="progressbar" style={{ width: "75%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress shadow-sm" style={{ height: "8px" }}>
+                           <div className="progress-bar" role="progressbar" style={{ width: "75%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6 className='mt-2'>React-Js</h6>
-                        <div class="progress shadow-sm" style={{ height: "8px" }}>
-                           <div class="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress shadow-sm" style={{ height: "8px" }}>
+                           <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6 className='mt-2'>Python</h6>
-                        <div class="progress shadow-sm" style={{ height: "8px" }}>
-                           <div class="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress shadow-sm" style={{ height: "8px" }}>
+                           <div className="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                      </div>
                   </div>
@@ -112,23 +115,22 @@ class Home extends Component {
                   </div>
                </div>
 
-               <div className="row text-center">
-
-                  <div className="col-md-6 col-lg-4 mt-3">
-                     <div className='service-item shadow-sm p-4 rounded bg-white'>
-                        <div className='icon text-primary my-3'>
-                           <i className=' fa fa-image fa-2xl'></i>
-                        </div>
-                        <h4 className='py-2'>Photoshop</h4>
-                        <p className='text-muted text-capitalize'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, nam saepe! Ad, doloremque excepturi blanditiis in fugit laudantium labore nulla ut. Aliquam laborum veniam tempora magni. Minima cumque commodi obcaecati.</p>
-                     </div>
-                  </div>
+               <div className="row text-center mt-5">
                   <div className="col-md-6 col-lg-4 mt-3">
                      <div className='service-item shadow-sm p-4 rounded bg-white'>
                         <div className='icon text-primary my-3'>
                            <i className='fa fa-lightbulb fa-2xl'></i>
                         </div>
                         <h4 className='py-2'>Creative Design</h4>
+                        <p className='text-muted text-capitalize'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, nam saepe! Ad, doloremque excepturi blanditiis in fugit laudantium labore nulla ut. Aliquam laborum veniam tempora magni. Minima cumque commodi obcaecati.</p>
+                     </div>
+                  </div>
+                  <div className="col-md-6 col-lg-4 mt-3">
+                     <div className='service-item shadow-sm p-4 rounded bg-white'>
+                        <div className='icon text-primary my-3'>
+                           <i className=' fa fa-image fa-2xl'></i>
+                        </div>
+                        <h4 className='py-2'>Photoshop</h4>
                         <p className='text-muted text-capitalize'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, nam saepe! Ad, doloremque excepturi blanditiis in fugit laudantium labore nulla ut. Aliquam laborum veniam tempora magni. Minima cumque commodi obcaecati.</p>
                      </div>
                   </div>
@@ -144,7 +146,7 @@ class Home extends Component {
                   <div className="col-md-6 col-lg-4 mt-5">
                      <div className='service-item shadow-sm p-4 rounded bg-white'>
                         <div className='icon text-primary my-3'>
-                           <i class="fa-brands fa-square-js fa-2xl"></i>
+                           <i className="fa-brands fa-square-js fa-2xl"></i>
                         </div>
                         <h4 className='py-2'>JavaScript</h4>
                         <p className='text-muted text-capitalize'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, nam saepe! Ad, doloremque excepturi blanditiis in fugit laudantium labore nulla ut. Aliquam laborum veniam tempora magni. Minima cumque commodi obcaecati.</p>
@@ -153,7 +155,7 @@ class Home extends Component {
                   <div className="col-md-6 col-lg-4 mt-5">
                      <div className='service-item shadow-sm p-4 rounded bg-white'>
                         <div className='icon text-primary my-3'>
-                           <i class="fa-brands fa-react fa-2xl"></i>
+                           <i className="fa-brands fa-react fa-2xl"></i>
                         </div>
                         <h4 className='py-2'>React</h4>
                         <p className='text-muted text-capitalize'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, nam saepe! Ad, doloremque excepturi blanditiis in fugit laudantium labore nulla ut. Aliquam laborum veniam tempora magni. Minima cumque commodi obcaecati.</p>
@@ -162,7 +164,7 @@ class Home extends Component {
                   <div className="col-md-6 col-lg-4 mt-5">
                      <div className='service-item shadow-sm p-4 rounded bg-white'>
                         <div className='icon text-primary my-3'>
-                           <i class="fa-brands fa-python fa-2xl"></i>
+                           <i className="fa-brands fa-python fa-2xl"></i>
                         </div>
                         <h4 className='py-2'>Python</h4>
                         <p className='text-muted text-capitalize'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, nam saepe! Ad, doloremque excepturi blanditiis in fugit laudantium labore nulla ut. Aliquam laborum veniam tempora magni. Minima cumque commodi obcaecati.</p>
@@ -180,7 +182,7 @@ class Home extends Component {
                <div className="row justify-content-center">
                   <div className="col-lg-8">
                      <div className='section-title text-center'>
-                        <h2 className='mb-5'>Projects with Bootstrap</h2>
+                        <h2 className='mb-5'> Projects</h2>
                      </div>
                   </div>
                </div>
@@ -188,37 +190,42 @@ class Home extends Component {
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={IPort} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
-                        <h3 className='my-3 text-center'>Iport App</h3>
+                        <h3 className='my-3 text-center'>IPort App</h3>
+                        <a href="https://iport.onrender.com/" target='-blank'>Live Demo</a>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={IPorttransport} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>IPort Transport App</h3>
+                        <a href="https://iporttransport.onrender.com/" target='-blank'>Live Demo</a>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={Textanalyzer} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>IText Analyzer App</h3>
-                     </div>
-                  </div>
-                  <div className="col-md-6 col-lg-4">
-                     <div className='portfolio-item my-5'>
-                        <img src={Newsapp} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
-                        <h3 className='my-3 text-center'>News App</h3>
+                        <a href="https://itextanalyzer.onrender.com/" target='-blank'>Live Demo</a>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={Product} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>Product App</h3>
+                        <a href="/product" target='-blank'>Live Demo</a>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={contact} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
-                        <h3 className='my-3 text-center'>Contact App</h3>
+                        <h3 className='my-3 text-center'>User App</h3>
+                        <a href="/user" target='-blank'>Live Demo</a>
+                     </div>
+                  </div>
+                  <div className="col-md-6 col-lg-4">
+                     <div className='portfolio-item my-5'>
+                        <img src={Newsapp} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
+                        <h3 className='my-3 text-center'>News App</h3>
                      </div>
                   </div>
 
@@ -238,7 +245,7 @@ class Home extends Component {
                   </div>
                </div>
                <div className="row">
-                  <div className="col-md-5">
+                  <div className="col-md-5 mt-5">
                      <div className='contact-item d-flex mb-3'>
                         <div className='icon'>
                            <i className='text-primary fa fa-envelope fa-lg '></i>
@@ -263,13 +270,13 @@ class Home extends Component {
                         </div>
                         <div className='text mx-4'>
                            <h5 className='fs-5'>Git Hub</h5>
-                           <p className='text-muted'> https://github.com/praveenprabhakar1991</p>
+                           <p className='text-muted'>praveenprabhakar1991</p>
                         </div>
                      </div>
                   </div>
 
-                  <div className="col-md-7">
-                     <div className="contact.form">
+                  <div className="col-md-7 mt-5">
+                     <div className="contact-form">
                         <form>
                            {/* 1st Row of Form Starts Here */}
                            <div className="row">
@@ -298,7 +305,7 @@ class Home extends Component {
                            </div>
                            {/* 3rd Row of Form Ends Here */}
 
-                           <button className='btn btn-outline-primary '>Send Message</button>
+                           <button className='btn btn-outline-primary'> <a href="#">Send Message</a></button>
                         </form>
                      </div>
                   </div>
@@ -318,8 +325,6 @@ class Home extends Component {
             </div>
          </footer>
          {/* Footer  Ends Here */}
-
-
       </>
    }
 }
