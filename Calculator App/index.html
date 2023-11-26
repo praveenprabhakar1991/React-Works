@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="Style.css">
+     <title>Calculator App</title>
+</head>
+
+<body style="background-color: #ecf0f3">
+     <h1 class="text-center mt-5">Calculator App</h1>
+     <div class="container mt-5 ">
+          <div class='Calculator'>
+               <input type="text" placeholder='0' id='output' />
+               <button onClick="Clear()">CE </button>
+               <button onClick="del()">&rarr; </button>
+               <button onClick="display('%')"> % </button>
+               <button onClick="display('/')"> / </button>
+               <button onClick="display('7')"> 7 </button>
+               <button onClick="display('8')"> 8 </button>
+               <button onClick="display('9')"> 9 </button>
+               <button onClick="display('*')"> * </button>
+               <button onClick="display('4')"> 4 </button>
+               <button onClick="display('5')"> 5 </button>
+               <button onClick="display('6')"> 6 </button>
+               <button onClick="display('-')"> - </button>
+               <button onClick="display('3')"> 3 </button>
+               <button onClick="display('2')"> 2 </button>
+               <button onClick="display('1')"> 1 </button>
+               <button onClick="display('+')"> + </button>
+               <button onClick="display('.')"> . </button>
+               <button onClick="display('0')"> 0 </button>
+               <button onClick="calculate()" class='equal'> = </button>
+          </div>
+     </div>
+
+</body>
+
+<script>
+     let outputScreen = document.getElementById('output')
+
+     function display(num) {
+          outputScreen.value += num
+     }
+
+     function calculate() {
+          try {
+               outputScreen.value = eval(outputScreen.value)
+          }
+          catch (err) {
+               alert('Invalid Input')
+          }
+     }
+
+     function Clear() {
+          outputScreen.value = "";
+     }
+
+     function del() {
+          outputScreen.value = outputScreen.value.slice(0, -1)
+     }
+
+</script>
+
+</html>
