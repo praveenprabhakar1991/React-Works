@@ -191,41 +191,57 @@ class Home extends Component {
                      <div className='portfolio-item my-5'>
                         <img src={IPort} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>IPort App</h3>
-                        <a href="https://iport.onrender.com/" target='-blank'>Live Demo</a>
+                        <div className='d-flex justify-content-between'>
+                           <a className="text-dark" href="https://iport.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPORT-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={IPorttransport} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>IPort Transport App</h3>
-                        <a href="https://iporttransport.onrender.com/" target='-blank'>Live Demo</a>
+                        <div className='d-flex justify-content-between'>
+                           <a className="text-dark" href="https://iporttransport.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={Textanalyzer} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>IText Analyzer App</h3>
-                        <a href="https://itextanalyzer.onrender.com/" target='-blank'>Live Demo</a>
+                        <div className='d-flex justify-content-between'>
+                           <a className="text-dark" href="https://itextanalyzer.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>                        
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={Product} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>Product App</h3>
-                        <a href="/product" target='-blank'>Live Demo</a>
+                        <div className='d-flex justify-content-between'>
+                           <a className="text-dark" href="https://iportproductapp.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>                      
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={contact} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>User App</h3>
-                        <a href="/user" target='-blank'>Live Demo</a>
+                        <div className='d-flex justify-content-between'>
+                           <a className="text-dark" href="https://iportuserapp.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>                        
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={Newsapp} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>News App</h3>
+                        <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
                      </div>
                   </div>
 

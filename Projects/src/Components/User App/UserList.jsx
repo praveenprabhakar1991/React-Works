@@ -10,7 +10,7 @@ const UserList = (props) => {
   return (
     <div>   
       {/* <pre>{JSON.stringify(props.users)}</pre> */}
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
           <div className="col">
             <table className='table table-hover'>

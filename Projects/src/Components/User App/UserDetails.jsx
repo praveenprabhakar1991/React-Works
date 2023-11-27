@@ -3,7 +3,7 @@ import React from 'react'
 const UserDetails = (props) => {
     return (
         <div>           
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col">
                         {/* <pre>{JSON.stringify(props)}</pre> */}

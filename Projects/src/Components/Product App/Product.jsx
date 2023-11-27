@@ -30,15 +30,15 @@ class Product extends React.Component {
       return <>
          {/* <pre>{JSON.stringify(this.state)}</pre> */}
          <div className="container mt-5">
-            <h1>Products Component</h1><hr />
+            {/* <h1>Products Component</h1><hr /> */}
             <div className="row">
-               <div className="col-md-7">
+               <div className="col-md-7 mt-5">
                   {
                      this.state.Product.length > 0 && <ProductList Products={this.state.Product} SelectedProducts={this.SelectedProducts} />
                   }
 
                </div>
-               <div className="col-md-5">
+               <div className="col-md-5 mt-5">
                   {
                      this.state.Product.length > 0 && <ProductDetails SelectedProducts={this.state.SelectedProducts} />
                   }

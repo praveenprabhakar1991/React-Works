@@ -10,7 +10,7 @@ class ProductList extends Component {
       return <>
          {/* <h4>Product List</h4><hr /> */}
          {/* <pre>{JSON.stringify(this.props.Products)}</pre> */}
-         <div className="container">
+         <div className="container mt-5">
             <div className="row">
                <div className="col">
                   <table className='table table-hover'>

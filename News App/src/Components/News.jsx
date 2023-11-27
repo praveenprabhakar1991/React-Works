@@ -8,7 +8,7 @@ class News extends React.Component {
    static defaultProps = {
       country: 'in',
       category: 'general',
-      pageSize: 9,
+      pageSize: 6,
    }
 
    static propTypes = {
@@ -60,7 +60,7 @@ class News extends React.Component {
 
    render() {
       return <>
-         <h1 className='text-center mt-5'> News App - Top {this.Capitalize(this.props.category)} Headlines</h1>
+         <h1 className=' py-5 text-center mt-5'> News App - Top {this.Capitalize(this.props.category)} Headlines</h1>
          <div className="container">
             {this.state.Loading && <Spinner />}
             <div className="row">

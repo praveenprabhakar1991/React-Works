@@ -23,16 +23,16 @@ const UserApp = () => {
     return (
         <div>
             <div className="container mt-5">
-                <h1>Users Component</h1><hr />
+                {/* <h1>Users Component</h1><hr /> */}
                 <div className="row">
                     {/* <pre> {JSON.stringify(Users)} </pre> */}
-                    <div className="col-md-8">
+                    <div className="col-md-8 mt-5">
                         {
                             Object.keys(Users).length > 0 ? <> <UserList users={Users.users} Selecteduser={SelectedUserHandler} /></> : null
                         }
 
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 mt-5">
                         {
                             Object.keys(Selecteduser).length > 0 ? <> <UserDetails Selecteduser={Selecteduser} /></> : null
                         }
