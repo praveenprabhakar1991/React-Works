@@ -6,7 +6,9 @@ import Newsapp from './Assets/Newsapp.png'
 import contact from './Assets/contact.png'
 import Product from './Assets/Product.png'
 import Textanalyzer from './Assets/Textanalyzer.png'
-import Resume from './Assets/Resume.png'
+import Calculator from './Assets/Calculator.png'
+import MusicApp from './Assets/MusicApp.png'
+// import Resume from './Assets/Resume.png'
 
 class Home extends Component {
 
@@ -52,7 +54,7 @@ class Home extends Component {
                         <h3 className='text-uppercase mb-3'>fugiat magni deleniti iure omnis dicta facere temporibus</h3>
                         <p className='text-capitalize text-muted'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque accusamus deserunt debitis vero maxime, harum, cupiditate explicabo perferendis aliquam sapiente, repellat reiciendis dolor! Iste omnis ipsum architecto blanditiis, quia reiciendis ratione corrupti laboriosam minus quis maiores corporis, sint cumque pariatur. Repellendus fuga pariatur cum fugiat earum magni consequatur necessitatibus voluptates dolor! Accusantium beatae perspiciatis, molestias quae animi perferendis ab, nostrum et asperiores architecto, vero iure! Animi quos perferendis adipisci ab nostrum ipsum atque.</p>
 
-                        <button className='btn btn-outline-primary btn-sm'><a href={Resume} download>My Resume</a></button>
+                        <button className='btn btn-outline-primary btn-sm'><a href="#" download>My Resume</a></button>
 
                         <div className='social-inks mt-5'>
                            <i className='mx-5 fa fa-facebook fa-2xl'></i>
@@ -182,7 +184,7 @@ class Home extends Component {
                <div className="row justify-content-center">
                   <div className="col-lg-8">
                      <div className='section-title text-center'>
-                        <h2 className='mb-5'> Projects</h2>
+                        <h2 className='mb-5'>Projects</h2>
                      </div>
                   </div>
                </div>
@@ -192,7 +194,7 @@ class Home extends Component {
                         <img src={IPort} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>IPort App</h3>
                         <div className='d-flex justify-content-between'>
-                           <a className="text-dark" href="https://iport.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://iport.onrender.com/" target='-blank'><i className="mx-5 fa-solid fa-desktop fa-xl"></i></a>
                            <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPORT-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
                         </div>
                      </div>
@@ -202,8 +204,9 @@ class Home extends Component {
                         <img src={IPorttransport} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>IPort Transport App</h3>
                         <div className='d-flex justify-content-between'>
-                           <a className="text-dark" href="https://iporttransport.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
-                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                           <a className="text-dark" href="https://iporttransport.onrender.com/" target='-blank'><i className="mx-5 fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'>
+                              <i className='mx-5 fa fa-github fa-2xl'></i></a>
                         </div>
                      </div>
                   </div>
@@ -212,9 +215,10 @@ class Home extends Component {
                         <img src={Textanalyzer} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>IText Analyzer App</h3>
                         <div className='d-flex justify-content-between'>
-                           <a className="text-dark" href="https://itextanalyzer.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
-                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
-                        </div>                        
+                           <a className="text-dark" href="https://itextanalyzer.onrender.com/" target='-blank'><i className="mx-5 fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/React-Works/tree/main/Text%20Analyzer%20App/src" target='-blank'>
+                              <i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
@@ -222,9 +226,10 @@ class Home extends Component {
                         <img src={Product} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>Product App</h3>
                         <div className='d-flex justify-content-between'>
-                           <a className="text-dark" href="https://iportproductapp.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
-                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
-                        </div>                      
+                           <a className="text-dark" href="https://iportproductapp.onrender.com/" target='-blank'><i className="mx-5 fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/React-Works/tree/main/Product%20App/src" target='-blank'>
+                              <i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
@@ -232,16 +237,41 @@ class Home extends Component {
                         <img src={contact} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>User App</h3>
                         <div className='d-flex justify-content-between'>
-                           <a className="text-dark" href="https://iportuserapp.onrender.com/" target='-blank'><i class="fa-solid fa-desktop fa-xl"></i></a>
-                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
-                        </div>                        
+                           <a className="text-dark" href="https://iportuserapp.onrender.com/" target='-blank'><i className="mx-5 fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/React-Works/tree/main/User%20App" target='-blank'>
+                              <i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div className="col-md-6 col-lg-4">
+                     <div className='portfolio-item my-5'>
+                        <img src={Calculator} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
+                        <h3 className='my-3 text-center'>Calculator App</h3>
+                        <div className='d-flex justify-content-between'>
+                           <a className="text-dark" href="https://iportcalculator.onrender.com/" target='-blank'><i className="mx-5 fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/Calculator-App" target='-blank'>
+                              <i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div className="col-md-6 col-lg-4">
+                     <div className='portfolio-item my-5'>
+                        <img src={MusicApp} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
+                        <h3 className='my-3 text-center'>Music App</h3>
+                        <div className='d-flex justify-content-between'>
+                           <a className="text-dark" href="https://iportmusic.onrender.com/" target='-blank'><i className="mx-5 fa-solid fa-desktop fa-xl"></i></a>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/Music-App" target='-blank'>
+                              <i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>
                      </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                      <div className='portfolio-item my-5'>
                         <img src={Newsapp} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>News App</h3>
-                        <a className="text-dark" href="https://github.com/praveenprabhakar1991/News-App" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        <div className='d-flex justify-content-end'>
+                           <a className="text-dark" href="https://github.com/praveenprabhakar1991/News-App" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        </div>
                      </div>
                   </div>
 
