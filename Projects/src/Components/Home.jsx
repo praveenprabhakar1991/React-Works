@@ -241,7 +241,7 @@ class Home extends Component {
                      <div className='portfolio-item my-5'>
                         <img src={Newsapp} className='w-100 img-thumbnail img-fluid shadow-sm' alt="Iport item" />
                         <h3 className='my-3 text-center'>News App</h3>
-                        <a className="text-dark" href="https://github.com/praveenprabhakar1991/IPort-Transport-Website" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
+                        <a className="text-dark" href="https://github.com/praveenprabhakar1991/News-App" target='-blank'><i className='mx-5 fa fa-github fa-2xl'></i></a>
                      </div>
                   </div>
 

@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b19425c0.js",
+    "static/media/Logo.png": "/static/media/Logo.3a6621988dbaa5b81c37.png",
+    "index.html": "/index.html",
+    "main.b19425c0.js.map": "/static/js/main.b19425c0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b19425c0.js"
+  ]
+}
