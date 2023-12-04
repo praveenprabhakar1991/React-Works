@@ -12,7 +12,7 @@ class Home extends Component {
          <section className='Home' id="home">
             <div className="container-lg">
                <div className="row min-vh-100 align-items-center align-content-center">
-                  <div className="col-md-6 mt-5 mt-md-0">
+                  <div className="col-md-6 mt-md-0 mt-5">
                      <div className='home-text' >
                         <h4 className='text-muted mb-1'>Hello, I'm</h4>
                         <h1 className='text-uppercase'>Prabhakar B</h1>
@@ -25,13 +25,13 @@ class Home extends Component {
                                     "I Am Full Stack Web Developer.",
                                  ]}
                                  typeSpeed={75}
-                                 backSpeed={75}
+                                 backSpeed={50}
                                  loop
                               />
                            </h2>
                         </div>
 
-                        <a className="btn btn-outline-primary mt-3 px-3 shadow-sm" href="#portfolio">My Works</a>
+                        <a className="btn btn-outline-primary mt-3 px-3 shadow-sm" href="#portfolio">My Projects</a>
                      </div>
                   </div>
                   <div className="col-md-6 mt-5 mt-md-0">

@@ -18,15 +18,14 @@ class About extends Component {
                <div className="row ">
                   <div className="col mt-5">
                      <div className='about-text'>
-                        <h3 className='text-capitalize text-center text-muted'>
+                        <h3 className=' Animated-Text text-capitalize text-center text-muted'>
                            <Typed
                               strings={[
-                                 "Hi, I am Prabhakar. A Full-Stack Web Developer. I was working as a Graphics Designer. I was Working as a Video Editor. I am specialized in developing responsive websites and web applications. Good at both front-end and back-end technologies like Adobe Photoshop, Premier Pro, After Effects, Html, Css, Bootstrap, Javascript, React, Redux, Python, Django, MySQL, Git and Git Hub . I am currently learning Django and MySQL."
+                                 "Hi, I am Prabhakar. I was working as a Graphics Designer. I was Working as a Video Editor. Now i'm a Full-Stack Web Developer. I am specialized in developing responsive websites and web applications. Good at both front-end and back-end technologies like Adobe Photoshop, Premier Pro, After Effects, Html, Css, Bootstrap, Javascript, React, Redux, Python, Django, MySQL, Git and Git Hub . I am currently learning Django and MySQL."
                               ]}
                               typeSpeed={60}
                            />
-                        </h3>
-                        <a className="btn btn-outline-primary mt-5 shadow-sm" href="#portfolio" download>My Resume</a>
+                        </h3>                       
                      </div>
                   </div>
                </div>
