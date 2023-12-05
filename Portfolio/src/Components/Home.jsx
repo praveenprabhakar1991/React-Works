@@ -21,8 +21,8 @@ class Home extends Component {
                               <Typed
                                  strings={[                                   
                                     "I Am UI / UX Web Developer.",                                                                        
-                                    "I Am React Js Web Developer.",                                                                        
-                                    "I Am Full Stack Web Developer.",
+                                    "I Am React-Js Web Developer.",                                                                        
+                                    "I Am Python Full Stack Developer.",
                                  ]}
                                  typeSpeed={75}
                                  backSpeed={50}
