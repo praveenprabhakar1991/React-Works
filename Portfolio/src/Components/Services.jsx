@@ -42,7 +42,7 @@ class Services extends Component {
       return <>
          {/* Services Section Starts Here */}
          <section className=" services min-vh-100 py-5" id='service'>
-            <div className="container-lg py-4">
+            <div className="container-md py-4">
                <div className="row justify-content-center">
                   <div className="col-lg-8">
                      <div className='section-title text-center'>

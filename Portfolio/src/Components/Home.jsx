@@ -20,8 +20,8 @@ class Home extends Component {
                            <h2>
                               <Typed
                                  strings={[                                   
+                                    "I Am UI / UX Web Developer.",                                                                        
                                     "I Am React Js Web Developer.",                                                                        
-                                    "I Am Django Web Developer.",                                                                        
                                     "I Am Full Stack Web Developer.",
                                  ]}
                                  typeSpeed={75}
