@@ -19,8 +19,8 @@ const UserList = (props) => {
                   <th>Id</th>
                   <th>FirstName</th>
                   <th>LastName</th>
-                  <th>Gender</th>
                   <th>Location</th>
+                  <th>Phone</th>
                 </tr>
               </thead>
               <tbody>
@@ -30,8 +30,8 @@ const UserList = (props) => {
                       <td>{users.id}</td>
                       <td>{users.firstName}</td>
                       <td>{users.lastName}</td>
-                      <td>{users.gender}</td>
-                      <td>{users.address.address}</td>
+                      <td>{users.address.city}</td>
+                      <td>{users.phone}</td>
                     </tr>
                   })
                 }
