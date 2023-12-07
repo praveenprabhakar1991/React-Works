@@ -5,7 +5,7 @@ class ProductDetails extends Component {
       return <>
          {/* <h4>Product Details</h4><hr /> */}
          {/* <pre> {JSON.stringify(this.props.SelectedProducts)} </pre> */}
-         <div className="container mt-5">
+         <div className="container mt-5 sticky-top">
             <div className="row">
                <div className="col">
                   <div className="card">
