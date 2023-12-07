@@ -30,7 +30,6 @@ const UserApp = () => {
                         {
                             Object.keys(Users).length > 0 ? <> <UserList users={Users.users} Selecteduser={SelectedUserHandler} /></> : null
                         }
-
                     </div>
                     <div className="col-md-4 mt-5">
                         {

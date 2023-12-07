@@ -16,7 +16,6 @@ class ProductDetails extends Component {
                         <h5>Price : {this.props.SelectedProducts.price} $</h5>
                         <hr />
                         <h6>{this.props.SelectedProducts.description}</h6>
-
                      </div>
                   </div>
                </div>
