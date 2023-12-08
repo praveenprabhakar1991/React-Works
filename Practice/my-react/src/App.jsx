@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
-import User from './User'
+import Calci from './Calci'
 
 
 class App extends React.Component {
   render() {
     return <>
       < Navbar />
-      < User />
+      < Calci />
     </>
   }
 }

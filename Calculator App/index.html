@@ -27,9 +27,9 @@
                <button onClick="display('5')"> 5 </button>
                <button onClick="display('6')"> 6 </button>
                <button onClick="display('-')"> - </button>
-               <button onClick="display('3')"> 3 </button>
-               <button onClick="display('2')"> 2 </button>
                <button onClick="display('1')"> 1 </button>
+               <button onClick="display('2')"> 2 </button>
+               <button onClick="display('3')"> 3 </button>
                <button onClick="display('+')"> + </button>
                <button onClick="display('.')"> . </button>
                <button onClick="display('0')"> 0 </button>
@@ -46,15 +46,6 @@
           outputScreen.value += num
      }
 
-     function calculate() {
-          try {
-               outputScreen.value = eval(outputScreen.value)
-          }
-          catch (err) {
-               alert('Invalid Input')
-          }
-     }
-
      function Clear() {
           outputScreen.value = "";
      }
@@ -63,6 +54,14 @@
           outputScreen.value = outputScreen.value.slice(0, -1)
      }
 
+     function calculate() {
+          try {
+               outputScreen.value = eval(outputScreen.value)
+          }
+          catch (err) {
+               alert('Invalid Input')
+          }
+     }
 </script>
 
 </html>
