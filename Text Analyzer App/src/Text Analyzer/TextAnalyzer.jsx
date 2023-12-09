@@ -21,6 +21,7 @@ const TextAnalyzer = (props) => {
    }
 
    let CapitalizeHandler = () => {
+      // let newText = Text.charAt(0).toUpperCase() + Text.slice(1);
       let newText = Text.replace(/\b\w/g, match => match.toUpperCase());
       setText(newText)
       props.showAlert('Converted to Capitalized.!')
