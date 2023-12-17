@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-
 import IPort from './Assets/Portfolio/IPort.png'
 import IPorttransport from './Assets/Portfolio/IPorttransport.png'
 import Newsapp from './Assets/Portfolio/Newsapp.png'
@@ -72,31 +69,11 @@ class Portfolio extends Component {
       },
    ]
 
-   responsive = {
-      superLargeDesktop: {
-         // the naming can be any, depends on you.
-         breakpoint: { max: 4000, min: 3000 },
-         items: 1
-      },
-      desktop: {
-         breakpoint: { max: 3000, min: 1024 },
-         items: 1
-      },
-      tablet: {
-         breakpoint: { max: 1024, min: 464 },
-         items: 1 
-      },
-      mobile: {
-         breakpoint: { max: 464, min: 0 },
-         items: 1
-      }
-   }
-
    render() {
       return <>
          {/* Portfolio Section Starts Here */}
          <section className='portfolio min-vh-100 py-5' id='portfolio'>
-            <div className="container-md py-4">
+            <div className="container-lg py-4">
                <div className="row justify-content-center">
                   <div className="col-lg-8">
                      <div className='section-title text-center'>
@@ -104,21 +81,21 @@ class Portfolio extends Component {
                      </div>
                   </div>
                </div>
-               <Carousel responsive={this.responsive}>
+               <div className="row">
                   {
                      this.Projects.map((Project) => {
-                        return <div className='container' key={Project.Name}>
-                           <div className="card shadow-sm text-center">
+                        return <div className="col-md-4 text-center mt-5" key={Project.Name}>
+                           <div className="card shadow-sm">
                               <img src={Project.Image} className="card-img-top img-fluid" alt={Project.Name} />
                               <div className="card-body">
-                                 <h4 className="card-title text-muted">{Project.Name}</h4>
+                                 <h5 className="card-title text-muted">{Project.Name}</h5>
                               </div>
                               <h5><span className="badge bg-light rounded-pill text-primary shadow-sm">{Project.Tags[0]}</span>
-                                 <span className="badge bg-light rounded-pill text-primary mx-4 shadow-sm">{Project.Tags[1]}</span>
+                                 <span className="badge bg-light rounded-pill text-primary shadow-sm">{Project.Tags[1]}</span>
                                  <span className="badge bg-light rounded-pill text-primary shadow-sm">{Project.Tags[2]}</span>
                               </h5>
                               <h5><span className="badge bg-light rounded-pill text-primary shadow-sm">{Project.Tags[3]}</span>
-                                 <span className="badge bg-light rounded-pill text-primary mx-4 shadow-sm">{Project.Tags[4]}</span>
+                                 <span className="badge bg-light rounded-pill text-primary shadow-sm">{Project.Tags[4]}</span>
                               </h5>
                               <div className="card-body">
                                  <a href={Project.Live} target='_blank' rel="noreferrer"><i className=" text-dark mx-5 fa-solid fa-desktop fa-xl"></i></a>
@@ -128,7 +105,8 @@ class Portfolio extends Component {
                         </div>
                      })
                   }
-               </Carousel>
+
+               </div>
             </div>
          </section>
          {/* Portfolio Section Ends Here */}

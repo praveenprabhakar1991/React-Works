@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 
 import Illustrator from './Assets/Skills/Illustrator.png'
 import Photoshop from './Assets/Skills/Photoshop.png'
@@ -40,26 +38,6 @@ class Services extends Component {
       { Name: "Github", Logo: Github },
    ]
 
-   responsive = {
-      superLargeDesktop: {
-         // the naming can be any, depends on you.
-         breakpoint: { max: 4000, min: 3000 },
-         items: 6
-      },
-      desktop: {
-         breakpoint: { max: 3000, min: 1024 },
-         items: 4
-      },
-      tablet: {
-         breakpoint: { max: 1024, min: 464 },
-         items: 3
-      },
-      mobile: {
-         breakpoint: { max: 464, min: 0 },
-         items: 2
-      }
-   }
-
    render() {
       return <>
          {/* Services Section Starts Here */}
@@ -73,17 +51,17 @@ class Services extends Component {
                   </div>
                </div>
                <div className='my skills'>
-                  <div className="container">                     
-                        <Carousel responsive={this.responsive}>
-                           {
-                              this.skills.map((skill) => {
-                                 return <div key={skill.Name}>
-                                    <span className="badge badge-pill shadow-sm m-3"><img src={skill.Logo} className="img-fluid"></img></span>
-                                    <h5 className='text-muted text-center m-3'>{skill.Name}</h5>
-                                 </div>
-                              })
-                           }
-                        </Carousel>                    
+                  <div className="container">
+                     <div className="row text-center" >
+                        {
+                           this.skills.map((skill) => {
+                              return <div className="col-md-2" key={skill.Name}>
+                                 <span className="badge badge-pill shadow-sm mt-2 mb-2"><img src={skill.Logo} className="img-fluid"></img></span>
+                                 <h4 className='text-muted'>{skill.Name}</h4>
+                              </div>
+                           })
+                        }
+                     </div>
                   </div>
                </div>
             </div>

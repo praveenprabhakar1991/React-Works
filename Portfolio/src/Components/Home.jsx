@@ -15,20 +15,20 @@ class Home extends Component {
                   <div className="col-md-6 mt-md-0 mt-5">
                      <div className='home-text' >
                         <h4 className='text-muted mb-1'>Hello, I'm</h4>
-                        <h1 className='text-uppercase'>Prabhakar B</h1>
+                        <h2 className='text-uppercase'>Prabhakar B</h2>
                         <div className='Animated-typing text-muted'>
-                           <h2>
+                           <h3>
                               <Typed
                                  strings={[                                   
                                     "I Am UI / UX Web Developer.",                                                                        
                                     "I Am React-Js Web Developer.",                                                                        
-                                    "I Am Python Full Stack Developer.",
+                                    "I Am Full Stack Web Developer.",
                                  ]}
                                  typeSpeed={75}
                                  backSpeed={50}
                                  loop
                               />
-                           </h2>
+                           </h3>
                         </div>
 
                         <a className="btn btn-outline-primary mt-3 px-3 shadow-sm" href="#portfolio">My Projects</a>
