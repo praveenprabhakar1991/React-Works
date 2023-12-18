@@ -66,8 +66,8 @@ const EmployeeTable = () => {
                            <Link to="#" className='page-link' onClick={previousHandler}>Prev</Link>
                         </li>
                         {
-                           numbers.map((n, i) => (
-                              <li className={`page-item ${currentPage === n ? 'active' : ''}`} key={{ i }}>
+                           numbers.map((n) => (
+                              <li className={`page-item ${currentPage === n ? 'active' : ''}`} key={{ n }}>
                                  <Link to="#" className='page-link' onClick={() => changeCurrentPageHandler(n)} > {n} </Link>
                               </li>
                            ))
