@@ -1,13 +1,18 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './Navbar'
-import Calci from './Calci'
-
+import EmployeeTable from './Components/EmployeeTable'
 
 class App extends React.Component {
   render() {
     return <>
-      < Navbar />
-      < Calci />
+      <Router>
+        < Navbar />
+        < EmployeeTable />
+        <Routes>
+          <Route path='#' element={Navbar} />
+        </Routes>
+      </Router>
     </>
   }
 }

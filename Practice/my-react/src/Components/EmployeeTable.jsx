@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Datas from './Data'
 
-const Employee = () => {
+const EmployeeTable = () => {
 
    const [currentPage, setCurrentPage] = useState(1)
 
@@ -84,4 +84,4 @@ const Employee = () => {
    </>
 }
 
-export default Employee
+export default EmployeeTable

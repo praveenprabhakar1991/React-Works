@@ -77,7 +77,7 @@ class Services extends Component {
                         <Carousel responsive={this.responsive}>
                            {
                               this.skills.map((skill) => {
-                                 return <div key={skill.Name}>
+                                 return <div className="container" key={skill.Name}>
                                     <span className="badge badge-pill shadow-sm m-3"><img src={skill.Logo} className="img-fluid"></img></span>
                                     <h5 className='text-muted text-center m-3'>{skill.Name}</h5>
                                  </div>
