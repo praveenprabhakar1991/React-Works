@@ -31,8 +31,8 @@ const EmployeeTable = () => {
 
    return <>
       <div className="container mt-5">
-         <div className="row">
-            <div className="col">
+         <div className="row justify-content-center">
+            <div className="col-md-8">
                <table className='table table-hover'>
                   <thead className='bg-primary text-white'>
                      <tr>
@@ -59,7 +59,7 @@ const EmployeeTable = () => {
                      }
                   </tbody>
                </table>
-               <div className="">
+               <div>
                   <nav className='mt-5'>
                      <ul className='pagination justify-content-center' >
                         <li className='page-item'>
