@@ -14,6 +14,9 @@ class Navbar extends React.Component {
                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                      <li className="nav-item">
+                        <Link className="nav-link" to="/Calculator">Calculator</Link>
+                     </li>
+                     <li className="nav-item">
                         <Link className="nav-link" to="/Props&State">Props&State</Link>
                      </li>                     
                      <li className="nav-item">
@@ -21,6 +24,9 @@ class Navbar extends React.Component {
                      </li>
                      <li className="nav-item">
                         <Link className="nav-link" to="/UserApp">User App</Link>
+                     </li>
+                     <li className="nav-item">
+                        <Link className="nav-link" to="/TextAnalyzer">Text Analyzer</Link>
                      </li>
                      <li className="nav-item">
                         <Link className="nav-link">Disabled</Link>

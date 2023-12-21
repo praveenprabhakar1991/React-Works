@@ -21,7 +21,7 @@ class About extends Component {
                         <h4 className=' Animated-Text text-capitalize text-center text-muted'>
                            <Typed
                               strings={[
-                                 "Hi, I am Prabhakar. I Worked as Graphics Designer. I Worked as Video Editor. Now i'm Working as Full-Stack Developer. I am specialized in developing responsive websites and web applications. Good in front-end Technologies like Adobe Photoshop, Canva, Premier Pro, After Effects, Html, Css, Bootstrap, Javascript, React, Hooks, Python, and back-end technologies like MongoDb, MySQL, Git and Git Hub."
+                                 "Hi, I am Prabhakar. I Worked as Graphics Designer. I Worked as Video Editor. Now I finished learning Full Stack Development. I am specialized in developing responsive websites and web applications. Good in front-end Technologies like Adobe Photoshop, Canva, Premier Pro, After Effects, Html, Css, Bootstrap, Javascript, React, Python, and back-end technologies like MongoDb, MySQL, Git and Git Hub."
                               ]}
                               typeSpeed={60}
                            />
