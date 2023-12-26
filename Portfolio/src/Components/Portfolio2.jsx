@@ -8,7 +8,7 @@ import Textanalyzer from './Assets/Portfolio/Textanalyzer.png'
 import Calculator from './Assets/Portfolio/Calculator.png'
 import MusicApp from './Assets/Portfolio/MusicApp.png'
 
-class Portfolio extends Component {
+class Portfolio2 extends Component {
 
    Projects = [
       {
@@ -115,4 +115,4 @@ class Portfolio extends Component {
    }
 }
 
-export default Portfolio
+export default Portfolio2

@@ -17,7 +17,7 @@ import Mysql from './Assets/Skills/Mysql.png'
 import Git from './Assets/Skills/Git.png'
 import Github from './Assets/Skills/Github.png'
 
-class Services extends Component {
+class Services2 extends Component {
 
    skills = [
       { Name: "Adobe Illustrator", Logo: Illustrator },
@@ -71,4 +71,4 @@ class Services extends Component {
    }
 }
 
-export default Services
+export default Services2
